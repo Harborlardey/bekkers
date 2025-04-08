@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+a{
+    text-decoration: none;
+    color: white;
+}
+#header{
+    background-color: #333333d3;
+    color: white;
+    height: 82px;
+    width: 98vw;
+}
+#navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.hometab{
+    display: flex;
+    gap: 30px;
+    transition: 0.33;
+}
+.hometab :hover{
+    border-bottom: solid 1px #f08a41;
+}
+.logo{
+    display: flex;
+    width: 120px;
+}
+.button{
+    background-color: #f08a41;
+    color: white;
+    border: none;
+    padding:10px 30px;
+    font-weight: bold;
+}
+.topbody{
+    height: 657px;
+    width: 98vw;
+}
+.vid{
+
+}
