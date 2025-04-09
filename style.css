@@ -205,3 +205,12 @@ a{
 .question a{
     color: rgba(0, 0, 0, 0.527);
 }
+.downpart{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.the{
+    height: 50px;
+    width: 150px;
+}
