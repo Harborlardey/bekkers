@@ -159,9 +159,35 @@ a{
     border: none;
     font-weight: bold;
 }
+.bek{
+    font-weight: bold;
+}
+.text4{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
 .otherbody{
     height: 1000px;
     width: 100vw;
     background-color: antiquewhite;
     margin-top: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.othertext{
+    text-align: end;
+    width: 250px;
+}
+.other1 h3{
+    padding: 10px;
+}
+.other2{
+    width: 250px;
+    text-align: start;
+}
+.other2 h3{
+    padding: 10px;
 }
