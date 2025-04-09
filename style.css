@@ -5,14 +5,14 @@
 } 
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
     color: white;
 }
 #header{
-    background-color: #333333c2;
+    background-color: rgb(2, 2, 61);
     color: white;
     height: 82px;
     width: 100vw;
@@ -55,7 +55,7 @@ a{
 }
 .video{
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -72,7 +72,7 @@ a{
 .lowerbody{
     height: 82px;
     width: 100vw;
-    background-color:  #333333c2;
+    background-color: rgb(4, 4, 27);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -81,8 +81,55 @@ a{
 .span{
     color: #f08a41;
 }
-.textbodyd{
-    background-color: beige;
-    height: 50%;
-    width: auto;
+.textbody{
+    background-color: aliceblue;
+    height: 1000px;
+    width: 100vw;
+}
+.text{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+.text1{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.picbody{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.boat{
+    background-image: url(img/3rd\ img.png);
+    margin: auto;
+    width: 700px;
+    height: 250px;
+    background-size: contain;
+}
+.boattext{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+.boattext p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.button1{
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+    border: none;
+    padding:10px 30px;
+    font-weight: bold;
+}
+.underline{
+    border-bottom: 1px solid black;
+    width: 90vw;
+    margin: auto;
+}
+.picbody2{
+
 }
