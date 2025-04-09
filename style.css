@@ -165,14 +165,13 @@ a{
 .text4{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
     font-size: 25px;
+    background-color: rgb(243, 241, 238);
 }
 .otherbody{
-    height: 1000px;
+    height: 550px;
     width: 100vw;
-    background-color: antiquewhite;
-    margin-top: 30px;
+    background-color: rgb(243, 241, 238);
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -180,6 +179,12 @@ a{
 .othertext{
     text-align: end;
     width: 250px;
+}
+.otherpic{
+    background-image: url(img/11th.png);
+    width: 180px;
+    height: 450px;
+    background-size: contain;
 }
 .other1 h3{
     padding: 10px;
@@ -190,4 +195,13 @@ a{
 }
 .other2 h3{
     padding: 10px;
+}
+.question{
+    margin-top: 30px;
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+}
+.question a{
+    color: rgba(0, 0, 0, 0.527);
 }
